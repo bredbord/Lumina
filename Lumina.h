@@ -40,13 +40,4 @@ public:
 
 };
 
-Lumina::Lumina(/* args */)
-{
-}
-
-Lumina::~Lumina()
-{
-}
-
-
 #endif
