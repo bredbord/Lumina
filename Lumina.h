@@ -20,14 +20,14 @@ class Lumina {
         int mode, brightness;
         bool dimmerDirection, EEHoldWrite;
 
-        FastLED* FastLEDPtr;
+        CFastLED* FastLEDPtr;
 
         // functions
         void checkMaxMode();
 
 public:
     Lumina();
-    Lumina(FastLED* ptr);
+    Lumina(CFastLED* ptr);
     ~Lumina();
 
     void advanceMode();  // increment mode
